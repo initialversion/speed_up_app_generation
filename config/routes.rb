@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "ptos#index"
   # Routes for the Pto resource:
   # CREATE
   get "/ptos/new", :controller => "ptos", :action => "new"
