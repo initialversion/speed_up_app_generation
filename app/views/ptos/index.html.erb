@@ -17,7 +17,7 @@
 
       <% @ptos.each do |pto| %>
       <tr>
-        <td><%= pto.image %></td>
+        <td><img src='<%= pto.image %>' class='img-responsive'></td>
         <td><%= pto.caption %></td>
         <td><%= pto.owner_id %></td>
         <td>
